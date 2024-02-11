@@ -1,18 +1,18 @@
-given "" then 0
+given "" to CheckoutBillCalculator() then 0
 
-given "A" then 50
-given "B" then 30
-given "C" then 20
-given "D" then 15
+given "A" to CheckoutBillCalculator() then 50
+given "B" to CheckoutBillCalculator() then 30
+given "C" to CheckoutBillCalculator() then 20
+given "D" to CheckoutBillCalculator() then 15
 
-given "ABC" tehn 100
-given "DAB" then 95
+given "ABC" to CheckoutBillCalculator() then 100
+given "DAB" to CheckoutBillCalculator() then 95
 
-given "ABAAC" then 180
-given "ABDBADC" then 195
-given "ABADBAABAAA" then 400
+given "ABAAC" to CheckoutBillCalculator() then 180
+given "ABDBADC" to CheckoutBillCalculator() then 195
+given "ABADBAABAAA" to CheckoutBillCalculator() then 400
 
-given "EFGG" then throws Exception
-given "123123" then throws Exception
-given "2184u12" then throws Exception
-given "abcd" then throws Exception
+given "EFGG" to CheckoutBillCalculator() then throws Exception
+given "123123" to CheckoutBillCalculator() then throws Exception
+given "2184u12" to CheckoutBillCalculator() then throws Exception
+given "abcd" to CheckoutBillCalculator() then throws Exception
